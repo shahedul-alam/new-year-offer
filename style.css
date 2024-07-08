@@ -42,7 +42,7 @@ header {
 }
 
 /* 65%-section */
-/* .section-65-percent {
+.section-65-percent {
   max-width: 800px;
   margin: 120px auto;
   border: 1px solid black;
@@ -70,7 +70,7 @@ header {
   line-height: 58px;
   text-align: center;
   margin-bottom: 50px;
-} */
+}
 
 /* midnight-party
 .midnight-party {
