@@ -241,3 +241,56 @@ header {
   line-height: 32px;
   margin-bottom: 45px;
 }
+
+/* discount-section */
+.discount-section {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.discount-section-title {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.discount-section-heading {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.discount-section-heading > span {
+  color: rgb(255, 0, 0);
+}
+.discount-section-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.discount-section-images {
+  width: 100%;
+  min-height: 450px;
+  position: relative;
+}
+.discount-section-image1 {
+  height: 665px;
+  position: absolute;
+  bottom: -230px;
+  left: 60px;
+}
+.discount-section-image2 {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
