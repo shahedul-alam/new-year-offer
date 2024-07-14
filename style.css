@@ -414,3 +414,70 @@ form > button {
   background: rgb(255, 0, 0);
   cursor: pointer;
 }
+
+/* footer section */
+footer {
+  background: rgb(7, 2, 17);
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  width: 80%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.address > p {
+  max-width: 375px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.phone, .website {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-icons {
+  width: 80%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 50px;
+}
+.rights {
+  width: 80%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+}
+.rights > p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
