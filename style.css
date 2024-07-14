@@ -338,3 +338,79 @@ header {
   height: 100%;
 }
 
+/* subscribe-section */
+.subscribe-section {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+.subscribe-section-content {
+  max-width: 896px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-section-content > h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.subscribe-section-content > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+form {
+  display: flex;
+}
+input[type="text"] {
+  padding: 25px 265px 25px 30px;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+input[type="text"]::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+form > button {
+  padding: 24px 56px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+}
